@@ -101,6 +101,38 @@ main {
     border: none;
 }
 
+/* Quiz */
+.quiz {
+    height: 200px;
+}
+
+#quiz-app {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#question-container { 
+    margin-bottom: 20px;
+}
+
+#question {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2), auto;
+}
+
+.hide {
+    display: none;
+}
+
 /* Kontakt Side */
 .kontaktbox{
 padding: 45px;

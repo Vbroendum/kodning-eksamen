@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="apple-touch-icon" type="image/png" href="img/aitl-logo.png">
+    <link rel="icon" type="image/png" href="img/aitl-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>AI Tech Learning</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="/img/aitl-logo-inverted.png" height="60px" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="om-os.html">Om os</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="uvm.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Undervisningsmateriale
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="teacher.html">Til lærere</a></li>
+                  <li><a class="dropdown-item" href="elever.html">Til elever</a></li>
+                  <li><a class="dropdown-item" href="quiz.html">Quiz</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="kontakt.html">Kontakt</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                  Log ind
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="loginModalLabel">Log ind</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="px-4 py-3 login">
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                    <div class="mb-3">
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                        <label class="form-check-label" for="dropdownCheck">
+                          Husk mig
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Log ind</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <main class="container-fluid">
+        <section class="container hero" style="background-color: white;">
+          <div class="row gx-5 kontaktbox">
+            <div class="col-md-5 col-lg-5 col-sm-12 align-self-center">
+              <h1 class="display-6 pb-2">
+                Tag kontakt til os
+              </h1>
+              <p class="pb-5">
+                Har du en ide, et spørgsmål eller en kommentar så tøv ej med at tage kontakt.
+              </p>
+            <div class="grey kontakt">
+              <h3 class="pb-2">
+                Kontakt os
+              </h3>
+              <div class="mb-3 pb-2">
+                <label for="exampleFormControlInput1" class="form-label">Navn</label>
+                <input type="email" class="form-control" id="exampleFormControlInputnavn" placeholder="Navn">
+              </div>
+              <div class="mb-3 pb-2">
+                <label for="exampleFormControlInput1" class="form-label">Email addresse</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="navn@example.com">
+              </div>
+              <div class="mb-3 pb-2">
+                <label for="exampleFormControlTextarea1" class="form-label">Skriv din besked her</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button class="btn btn-primary text-align-center">Send</button>
+            </div>
+          </div>
+            <div class="col-md-7 col-lg-7 col-sm-12">
+              <img src="/img/grafik-materiale.png" class="img-fluid" alt="">
+            </div>
+            
+          </div>
+        </section>
+      </main>
+
+<footer class="d-flex justify-content-center">
+      <div class="container justify-content-center">
+        <div class="row gx-5">
+          <div class="col-md-6 col-lg-3 col-sm-12 m-3 kontakt">
+            <h5>
+                Kontakt
+            </h5>
+            <p><i class="bi bi-telephone"></i> +45 12 34 56 78</p>
+            <p><i class="bi bi-envelope-open"></i> eksempel@email.dk</p>
+            <p><i class="bi bi-geo-alt"></i> Adressevej 1, 2800 Kongens Lyngby</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 my-3 links">
+            <h5>
+                Nyttige links
+            </h5>
+            <a href="#"> Om os</a><br>
+            <a href="#">Undervisningsmateriale</a><br>
+            <a href="#">Retningslinjer</a><br>
+            <a href="#">Privatlivspolitik</a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 align-self-center my-3 samarbejde">
+            <img src="/img/cfu.png" alt="">
+            <img src="/img/forening.png" alt="">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-1 align-self-center justify-content-end my-3 socials">
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@400..800&display=swap');
+
+:root {
+    --primary-blue: #63758f;
+    --primary-cta: #ffbe54;
+    --blue-grey: #b0bfc4;
+    --hvid: #fff;
+    --sort: #000;
+    --head-blue: #a3f0de;
+    --secondary-cta: #24d8c2;
+    --third-cta: #03055e
+}
+
+body {
+    font-family: 'Inter';
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Syne';
+}
+
+.display-4 {
+font-family: 'syne' !important;
+color: var(--third-cta);
+}
+
+.display-6 {
+    font-family: 'syne' !important;
+    color: var(--third-cta);
+}
+
+p, a {
+    font-family: 'Inter';
+    line-height: 1rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-cta);
+    color: var(--sort);
+    border: 2px solid --sort !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--head-blue);
+    color: var(--sort);
+}
+
+.btn-outline-primary {
+    border: 1px solid var(--primary-cta);
+    color: var(--primary-cta);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-cta);
+    color: var(--sort);
+    border: 1px solid var(--sort);
+}
+
+.navbar {
+    background-color: var(--primary-blue);
+}
+
+.navbar a{
+    color: var(--hvid);
+    font-family: 'inter';
+}
+
+.navbar a:hover{
+    color: var(--primary-cta);
+}
+/* Navbar active */
+.active {
+    color: var(--head-blue)!important;
+}
+
+.dropdown-menu  {
+    background-color: var(--primary-blue);
+}
+/* Kasse rundt om cards på index */
+.grey {
+    background-color: #d3d3d3;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.navbar-nav {
+    color: #fff;
+}
+
+main {
+    background-color: var(--blue-grey);
+}
+
+/* Om os */
+.om-os-img {
+    width: 300px;
+    height: auto;
+}
+
+.om-os-card {
+    border: none;
+}
+
+/* Kontakt Side */
+.kontaktbox{
+padding: 45px;
+}
+.kontakt{
+    margin-bottom: 35px;
+}
+
+.form-label {
+    text-align: left;
+}
+
+.brain{
+    width: 300px;
+    padding: 15px; 
+}
+
+footer h5 {
+    color: var(--hvid);
+}
+
+footer p {
+    color: var(--hvid);
+}
+
+footer a {
+    color: var(--hvid);
+}
+
+footer a:hover {
+    color: var(--primary-cta);
+}
+
+footer i {
+    color: var(--blue-grey);
+}
+
+footer i:hover {
+    color: var(--hvid)
+}
+
+footer {
+    background-color: var(--primary-blue);
+}
+
+footer .socials a:hover i {
+    color: #ffbe54;
+}
+
+
+
+@media (max-width:768px) {
+    .kontakt, .links, .samarbejde, .socials {
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 576px){ 
+    .hero-billede {
+        order: -2;
+    }
+
+    .hero-text {
+        justify-content: center !important;
+    }
+}
+
+
+
+
+

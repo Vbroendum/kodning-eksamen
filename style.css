@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Syne';
 }
 
+section {
+    background-color: #fff;
+}
+
 .display-4 {
 font-family: 'syne' !important;
 color: var(--third-cta);
@@ -101,9 +105,33 @@ main {
     border: none;
 }
 
+.img-fluid{
+    margin-top: 60px;
+}
+
+.h1.display-4{
+    margin-top: 60px;
+}
+
 /* Quiz */
-.quiz {
-    height: 200px;
+.app h5 {
+    border-bottom: 1px solid #000;
+}
+
+.app .btn {
+    width: 100%;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px 0px; 
+    text-align: left;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+
+.app .btn:hover {
+    background: #222;
+    color: #fff;
 }
 
 #quiz-app {
@@ -115,23 +143,6 @@ main {
     border-radius: 10px;
 }
 
-#question-container { 
-    margin-bottom: 20px;
-}
-
-#question {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.btn-grid {
-    display: grid;
-    grid-template-columns: repeat(2), auto;
-}
-
-.hide {
-    display: none;
-}
 
 /* Kontakt Side */
 .kontaktbox{
@@ -149,6 +160,9 @@ padding: 45px;
     width: 300px;
     padding: 15px; 
 }
+
+
+
 
 footer h5 {
     color: var(--hvid);
@@ -175,7 +189,7 @@ footer i:hover {
 }
 
 footer {
-    background-color: var(--primary-blue);
+    background-color: var(--primary-blue) !important;
 }
 
 footer .socials a:hover i {
@@ -194,14 +208,3 @@ footer .socials a:hover i {
 @media (max-width: 576px){ 
     .hero-billede {
         order: -2;
-    }
-
-    .hero-text {
-        justify-content: center !important;
-    }
-}
-
-
-
-
-

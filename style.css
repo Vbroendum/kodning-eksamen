@@ -208,3 +208,9 @@ footer .socials a:hover i {
 @media (max-width: 576px){ 
     .hero-billede {
         order: -2;
+    }
+
+    .hero-text {
+        justify-content: center !important;
+    }
+}

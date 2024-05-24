@@ -1,7 +1,7 @@
 //Spørgsmål, de er en constant fordi de ikke vil ændre sig særligt ofte, der kan tilføjes eller trække fra
 const questions = [
     {
-        question: "Hvem afholdte en workshop Darthmouth University i 1955 omkring Kunstig intelligens, som blev den første anvendelse af ordet?", 
+        question: "Hvem afholdte en workshop på Darthmouth University i 1955 omkring Kunstig intelligens, som blev den første anvendelse af ordet?", 
         answer: [
             {text: "Alan Turing", correct: false},
             {text: "Arthur Samuel", correct: false},
@@ -10,30 +10,30 @@ const questions = [
         ]
     },
     {
-        question: "Which is largest animal in the world?", 
+        question: "Hvornår startede den generative kunstige intelligens, ChatGPT?", 
         answer: [
-            {text: "Shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false},
+            {text: "2020", correct: true},
+            {text: "2018", correct: false},
+            {text: "2019", correct: false},
+            {text: "2021", correct: false},
         ]
     },
     {
-        question: "Which is largest animal in the world?", 
+        question: "Den amerikanske datalog Arthur Samuels udviklede et program til at spille et brætspil, hvad hedder brætspillet?", 
         answer: [
-            {text: "Shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false},
+            {text: "Skak", correct: false},
+            {text: "Dam", correct: true},
+            {text: "Ludo", correct: false},
+            {text: "Backgammon", correct: false},
         ]
     },
     {
-        question: "Which is largest animal in the world?", 
+        question: "John Mccarthy fik anerkendelsen for at starte kunstig intelligens, men hvem startede det i virkeligheden?", 
         answer: [
-            {text: "Shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false},
+            {text: "Herbert Simons", correct: false},
+            {text: "Edward Shortliffe", correct: false},
+            {text: "Alex Krizhevsky, (krisveski)", correct: false},
+            {text: "Alan Turing", correct: true},
         ]
     }
 ]; 

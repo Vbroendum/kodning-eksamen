@@ -120,13 +120,4 @@ function handleNextButton(){
 
 
 //Hvis der stadig er spørgsmål tilbage vil den vise de næste spørgsmål, hvis der ikke er flere tilbage vil den genstarte quizzen
-nextButton.addEventListener("click", ()=> {
-    if(currentQuestionIndex < questions.length){
-        handleNextButton(); 
-    }else{
-        startQuiz();
-    }
-});
-
-//kalder og eksekverer funktionen startQuiz
-startQuiz();
+nextButton.addEventListener("c
